@@ -1,0 +1,48 @@
+ 1 /* ************************************************************************** */
+  2 /*                                                                            */
+  3 /*                                                        :::      ::::::::   */
+  4 /*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+  5 /*                                                    +:+ +:+         +:+     */
+  6 /*   By: tpedrass <marvin@42.fr>                    +#+  +:+       +#+        */
+  7 /*                                                +#+#+#+#+#+   +#+           */
+  8 /*   Created: 2022/01/27 16:19:57 by tpedrass          #+#    #+#             */
+  9 /*   Updated: 2022/01/27 17:08:52 by tpedrass         ###   ########.fr       */
+ 10 /*                                                                            */
+ 11 /* ************************************************************************** */
+ 12 #include <stdio.h>
+ 13
+ 14 void    ft_ultimate_ft(int *********nbr)
+ 15 {
+ 16     *********nbr = 42;
+ 17
+ 18 }
+ 19
+ 20 int     main (void)
+ 21 {
+ 22     int *********nbr0;
+ 23     int ********nbr1;
+ 24     int *******nbr2;
+ 25     int ******nbr3;
+ 26     int *****nbr4;
+ 27     int ****nbr5;
+ 28     int ***nbr6;
+ 29     int **nbr7;
+ 30     int *nbr8;
+ 31     int nbr;
+ 32
+ 33     nbr = 21;
+ 34     nbr8 = &nbr;
+ 35     nbr7 = &nbr8;
+ 36     nbr6 = &nbr7;
+ 37     nbr5 = &nbr6;
+ 38     nbr4 = &nbr5;
+ 39     nbr3 = &nbr4;
+ 40     nbr2 = &nbr3;
+ 41     nbr1 = &nbr2;
+ 42     nbr0 = &nbr1;
+ 43
+ 44     printf("%d\n", nbr);
+ 45     ft_ultimate_ft(nbr0);
+ 46     printf("%d\n", nbr);
+ 47     return (0);
+ 48 }
